@@ -1,5 +1,8 @@
 package org.example;
 
+import java.util.ArrayList;
+import com.google.gson.GsonBuilder;
+
 public class Main {
     public static void main(String [] args){
         Block genesisBlock = new Block("Hi im the first block", "0");
